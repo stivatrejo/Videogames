@@ -1,77 +1,43 @@
- README — English & Spanish Version
-🎮 Video Game Sales Analysis
-Data Cleaning • Exploratory Data Analysis • Insights Generation
+## Overview
+This project analyzes global video game sales to identify trends across platforms, genres, regions, and critic/user scores.
+It includes data cleaning, preprocessing, and exploratory data analysis (EDA).
 
-English Version
-Overview
-
-This project analyzes a dataset of worldwide video game sales. The goal is to clean the data, correct inconsistencies, and perform exploratory data analysis (EDA) to uncover trends related to platforms, genres, regional sales, and critic/user scores.
-It is designed as a practical data analytics exercise suitable for portfolios and real business insights.
-
-📂 Project Structure
-📁 videogames-analysis
+## Project Structure
+```
+videogames-analysis/
 │── games_eng.ipynb        # Main notebook (cleaning + EDA)
 │── games.csv              # Original dataset
-│── README.txt              # Project documentation
-│── games_eng_vis.pdf      # notebook exported in pdf
+│── games_eng_vis.pdf      # Notebook exported as PDF
+│── README.md              # Project documentation
+```
 
-- Data Cleaning Summary
+## Data Cleaning
+- Handling missing values
+- Type conversion (years, scores)
+- Category normalization (platforms, ESRB)
+- Removal of duplicates and inconsistencies
+- Preparation of numerical variables
 
-The notebook includes multiple preprocessing steps:
+## Exploratory Data Analysis
+- Global top-selling video games
+- Platform performance over time
+- Genre distribution by region
+- Relationship between critic/user scores and sales
+- Annual release trends
 
-Handling missing values
+## Technologies
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-Converting data types (year, scores, etc.)
-
-Normalizing categories (ESRB ratings, platforms)
-
-Removing inconsistencies and duplicates
-
-Preparing numerical features for analysis
-
-
-
-- Exploratory Data Analysis (EDA)
-
-The analysis covers:
-
-Best-selling video games globally
-
-Platform performance over time
-
-Popular genres by region
-
-Correlation between critic scores, user scores, and sales
-
-Annual release trends
-
-
-
-🛠️ Technologies Used
-
-Python
-
-Jupyter Notebook
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-How to Run This Project
-
-git clone https://github.com/<your-user>/<repo>.git
-cd videogames-analysis
+## How to Run
+```
 pip install -r requirements.txt
 jupyter notebook
+```
 
-
-👤 Author
-
-Stivaliz Trejo Sanchez
-
-
-
+## Author
+Stivaliz Trejo Sánchez
